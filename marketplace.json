@@ -14,7 +14,6 @@
     "redis_features": ["caching","sorted sets"],
     "redis_modules": ["RediSearch", "RedisTimeSeries"],
     "app_image_urls": ["https://raw.githubusercontent.com/redis-developer/redisbank/main/redisbank2.png"],
-    ],
     "youtube_url": "",
     "special_tags": [],
     "verticals": ["Financial"],
