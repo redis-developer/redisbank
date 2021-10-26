@@ -24,12 +24,30 @@ Features in this demo:
 3. Azure CLI (https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 4. Azure Spring Cloud extension for the Azure CLI (https://docs.microsoft.com/en-us/cli/azure/spring-cloud?view=azure-cli-latest)
 
-## Running locally
+## How to run it locally
 
-1. Checkout the project
-2. `docker run -p 6379:6379 redislabs/redismod:latest`
-3. `./mvnw clean package spring-boot:run`
-4. Navigate to http://localhost:8080 and login with user lars and password larsje
+1. Clone the repository
+
+```
+git clone https://github.com/redis-developer/redisbank/
+```
+
+2. Run Redis Docker container locally
+
+```
+docker run -p 6379:6379 redislabs/redismod:latest
+```
+
+3. Execute the below CLI:
+
+```
+./mvnw clean package spring-boot:run
+```
+
+4. Accessing the application
+
+Navigate to http://localhost:8080 and login with user lars and password larsje
+
 
 ## Running on Azure Spring Cloud
 
