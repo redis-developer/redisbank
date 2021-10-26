@@ -48,6 +48,8 @@ docker run -p 6379:6379 redislabs/redismod:latest
 
 Navigate to http://localhost:8080 and login with user lars and password larsje
 
+![My Image](https://github.com/redis-developer/redisbank/blob/main/redisbank1.png)
+![My Image](https://github.com/redis-developer/redisbank/blob/main/redisbank2.png)
 
 ## Running on Azure Spring Cloud
 
