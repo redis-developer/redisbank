@@ -1,4 +1,6 @@
-# About this repository
+# RedisBank - Your Real-Time Personal Finance Manager 
+
+![My Image](https://github.com/redis-developer/redisbank/blob/main/redisbank2.png)
 
 This repository uses Redis core data structures, Streams, RediSearch and TimeSeries to build a
 Java/Spring Boot/Spring Data Redis Reactive application that shows a searchable transaction overview with realtime updates
