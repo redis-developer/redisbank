@@ -1,4 +1,4 @@
-# RedisBank - Your Real-Time Personal Finance Manager 
+# RedisBank - A Simple Mobile Banking Application 
 
 ![My Image](https://github.com/redis-developer/redisbank/blob/main/redisbank2.png)
 
