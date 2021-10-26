@@ -2,11 +2,18 @@
 
 ![My Image](https://github.com/redis-developer/redisbank/blob/main/redisbank2.png)
 
-This repository uses Redis core data structures, Streams, RediSearch and TimeSeries to build a
-Java/Spring Boot/Spring Data Redis Reactive application that shows a searchable transaction overview with realtime updates
-as well as a personal finance management overview with realtime balance and biggest spenders updates. UI in Bootstrap/CSS/Vue.
+Redisbank is a real-time personal finance management application built using Spring Boot - an open source, microservice-based Java web framework. The Spring Boot framework creates a fully production-ready environment that is completely configurable using its prebuilt code within its codebase. The application shows a searchable transaction overview with realtime updates as well as a personal finance management overview with realtime balance and biggest spenders updates.
 
-Features in this demo:
+### Tech Stack:
+
+- Java
+- Spring Boot
+- Bootstrap
+- CSS
+- Vue
+
+The application uses the below Redis core-data structure and Modules:
+
 
 - Redis Streams for the realtime transactions
 - RedisTimeSeries for the balance over time
@@ -44,6 +51,28 @@ docker run -p 6379:6379 redislabs/redismod:latest
 
 ```
 ./mvnw clean package spring-boot:run
+```
+
+```
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ redisbank ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/ajeetraina/projects/redisbank/target/test-classes
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.4.5:run (default-cli) < test-compile @ redisbank <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.4.5:run (default-cli) @ redisbank ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.5)
+
+
 ```
 
 4. Accessing the application
