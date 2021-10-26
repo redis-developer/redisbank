@@ -76,7 +76,7 @@ docker run -p 6379:6379 redislabs/redismod:latest
 
 ```
 
-4. Accessing the application
+### 4. Accessing the application
 
 Navigate to http://localhost:8080 and login with user lars and password larsje
 
