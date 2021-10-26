@@ -1,6 +1,6 @@
 # RedisBank - A Simple Mobile Banking Application 
 
-![My Image](https://github.com/redis-developer/redisbank/blob/main/redisbank2.png)
+![My Image](https://raw.githubusercontent.com/redis-developer/redisbank/main/redisbank2.png)
 
 Redisbank is a simple, real-time mobile banking application built using Java/Spring Boot - an open source, microservice-based Java web framework. This application has a capability to show a searchable transaction overview with realtime updates as well as a personal finance management overview with realtime balance and biggest spenders updates.
 
@@ -22,7 +22,7 @@ The application uses the below Redis core-data structure and Modules:
 - [Redis hashes](https://redis.io/topics/data-types) for session storage (via Spring Session)
 
 # Architecture
-<img src="architecture.png"/>
+![My Image](https://raw.githubusercontent.com/redis-developer/redisbank/main/architecture.png)
 
 # Getting Started
 
