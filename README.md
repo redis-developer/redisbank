@@ -28,30 +28,31 @@ The application uses the below Redis core-data structure and Modules:
 
 ## Prerequisites
 
-1. JDK 11 or higher (https://openjdk.java.net/install/index.html)
-2. Docker Desktop (https://www.docker.com/products/docker-desktop)
-3. Azure CLI (https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
-4. Azure Spring Cloud extension for the Azure CLI (https://docs.microsoft.com/en-us/cli/azure/spring-cloud?view=azure-cli-latest)
+1. [JDK 11 or higher](https://openjdk.java.net/install/index.html)
+2. [Docker Desktop](https://www.docker.com/products/docker-desktop)
+3. [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+4. [Azure Spring Cloud extension for the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/spring-cloud?view=azure-cli-latest)
 
 ## How to run it locally
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```
 git clone https://github.com/redis-developer/redisbank/
 ```
 
-2. Run Redis Docker container locally
+### 2. Run Redis Docker container locally
 
 ```
 docker run -p 6379:6379 redislabs/redismod:latest
 ```
 
-3. Execute the below CLI:
+### 3. Execute the below CLI to run Spring boot app with Maven:
 
 ```
 ./mvnw clean package spring-boot:run
 ```
+#### Results:
 
 ```
 [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ redisbank ---
