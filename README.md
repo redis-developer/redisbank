@@ -2,7 +2,7 @@
 
 ![My Image](https://github.com/redis-developer/redisbank/blob/main/redisbank2.png)
 
-Redisbank is a real-time personal finance management application built using Spring Boot - an open source, microservice-based Java web framework. The Spring Boot framework creates a fully production-ready environment that is completely configurable using its prebuilt code within its codebase. The application shows a searchable transaction overview with realtime updates as well as a personal finance management overview with realtime balance and biggest spenders updates.
+Redisbank is a simple, real-time mobile banking application built using Java/Spring Boot - an open source, microservice-based Java web framework. The Spring Boot framework creates a fully production-ready environment that is completely configurable using its prebuilt code within its codebase. The application shows a searchable transaction overview with realtime updates as well as a personal finance management overview with realtime balance and biggest spenders updates.
 
 ### Tech Stack:
 
