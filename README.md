@@ -15,11 +15,11 @@ Redisbank is a simple, real-time mobile banking application built using Java/Spr
 The application uses the below Redis core-data structure and Modules:
 
 
-- Redis Streams for the realtime transactions
-- RedisTimeSeries for the balance over time
-- RediSearch for searching transactions
-- Sorted Sets for the 'biggest spenders'
-- Redis hashes for session storage (via Spring Session)
+- [Redis Streams](https://redis.io/topics/streams-intro) for the realtime transactions
+- [RedisTimeSeries](https://developer.redis.com/howtos/redistimeseries) for the balance over time
+- [RediSearch](https://developer.redis.com/howtos/redisearch) for searching transactions
+- [Sorted Sets](https://redis.io/commands/ZADD) for the 'biggest spenders'
+- [Redis hashes](https://redis.io/topics/data-types) for session storage (via Spring Session)
 
 # Architecture
 <img src="architecture.png"/>
