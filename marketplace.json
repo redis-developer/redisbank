@@ -5,7 +5,7 @@
     "contributed_by": "Redis Labs",
     "repo_url": "https://github.com/redis-developer/redisbank",
     "download_url": "https://github.com/redis-developer/redisbank/archive/refs/heads/main.zip",
-    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/redisbank/main/redisbank.png",
+    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/redisbank/main/app_preview_image.png",
     "hosted_url": "",
     "quick_deploy": "true",
     "deploy_buttons": [],
