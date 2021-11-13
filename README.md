@@ -1,4 +1,4 @@
-# RedisBank - A Simple Mobile Banking Application 
+# RedisBank - A Real-Time Online Mobile Banking Application 
 
 ![My Image](https://raw.githubusercontent.com/redis-developer/redisbank/main/redisbank2.png)
 
