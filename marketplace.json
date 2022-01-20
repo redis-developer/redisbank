@@ -13,7 +13,7 @@
     "redis_commands": [],
     "redis_features": ["caching","sorted sets"],
     "redis_modules": ["RediSearch", "RedisTimeSeries"],
-    "app_image_urls": ["https://raw.githubusercontent.com/redis-developer/redisbank/main/images/app_preview_image.png"],
+    "app_image_urls": [],
     "youtube_url": "https://www.youtube.com/watch?v=JEruQaQ9XpU",
     "special_tags": [],
     "verticals": ["Financial Services"],
