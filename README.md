@@ -1,4 +1,4 @@
-# RedisBank - A Real-Time Online Mobile Banking Application 
+# RedisBank - A Real-Time Online Mobile Banking Application
 
 ![My Image](https://raw.githubusercontent.com/redis-developer/redisbank/main/redisbank2.png)
 
@@ -16,8 +16,8 @@ The application uses the below Redis core-data structure and Modules:
 
 
 - [Redis Streams](https://redis.io/topics/streams-intro) for the realtime transactions
-- [RedisTimeSeries](https://developer.redis.com/howtos/redistimeseries) for the balance over time
-- [RediSearch](https://developer.redis.com/howtos/redisearch) for searching transactions
+- [Redis Time Series](https://developer.redis.com/howtos/redistimeseries) for the balance over time
+- [Redis Search](https://developer.redis.com/howtos/redisearch) for searching transactions
 - [Sorted Sets](https://redis.io/commands/ZADD) for the 'biggest spenders'
 - [Redis hashes](https://redis.io/topics/data-types) for session storage (via Spring Session)
 
@@ -58,10 +58,10 @@ docker run -p 6379:6379 redislabs/redismod:latest
 [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ redisbank ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/ajeetraina/projects/redisbank/target/test-classes
-[INFO] 
+[INFO]
 [INFO] <<< spring-boot-maven-plugin:2.4.5:run (default-cli) < test-compile @ redisbank <<<
-[INFO] 
-[INFO] 
+[INFO]
+[INFO]
 [INFO] --- spring-boot-maven-plugin:2.4.5:run (default-cli) @ redisbank ---
 [INFO] Attaching agents: []
 
